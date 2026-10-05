@@ -1,0 +1,86 @@
+$date
+	Mon Oct  5 20:49:49 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_lab1 $end
+$var wire 1 ! xor_y $end
+$var wire 1 " xnor_y $end
+$var wire 1 # or_y $end
+$var wire 1 $ not_a $end
+$var wire 1 % nor_y $end
+$var wire 1 & nand_y $end
+$var wire 1 ' and_y $end
+$var reg 1 ( a $end
+$var reg 7 ) actual [6:0] $end
+$var reg 1 * b $end
+$var reg 7 + expected [6:0] $end
+$var integer 32 , errors [31:0] $end
+$scope module dut $end
+$var wire 1 ( a $end
+$var wire 1 ' and_y $end
+$var wire 1 * b $end
+$var wire 1 & nand_y $end
+$var wire 1 % nor_y $end
+$var wire 1 $ not_a $end
+$var wire 1 # or_y $end
+$var wire 1 " xnor_y $end
+$var wire 1 ! xor_y $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 - i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 -
+b0 ,
+bx +
+0*
+bx )
+0(
+0'
+1&
+1%
+1$
+0#
+1"
+0!
+$end
+#10000
+0%
+0"
+1#
+1!
+1*
+b1 -
+b1000111 +
+b1000111 )
+#20000
+0$
+0*
+1(
+b10 -
+b1011100 +
+b1011100 )
+#30000
+0&
+1"
+1'
+0!
+1*
+b11 -
+b11100 +
+b11100 )
+#40000
+b100 -
+b110001 +
+b110001 )
